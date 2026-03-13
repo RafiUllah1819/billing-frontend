@@ -1,0 +1,35 @@
+.return-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.return-layout {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+  align-items: start;
+}
+
+.return-main,
+.return-sidebar {
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.return-main h2,
+.return-sidebar h2 {
+  margin: 0 0 18px;
+  font-size: 20px;
+  color: #111827;
+}
+
+@media (max-width: 1100px) {
+  .return-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.section-title-row{
+    margin-top: 15px;
+}

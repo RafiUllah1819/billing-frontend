@@ -1,0 +1,10 @@
+.audit-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.audit-card {
+  padding: 20px;
+  border-radius: 18px;
+}

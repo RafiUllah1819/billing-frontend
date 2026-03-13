@@ -1,0 +1,71 @@
+.print-container{
+width:900px;
+margin:auto;
+padding:20px;
+background:white;
+}
+
+.print-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:20px;
+}
+
+.print-logo{
+height:70px;
+}
+
+.company-info{
+text-align:right;
+}
+
+.document-title{
+text-align:center;
+margin-bottom:20px;
+}
+
+.invoice-meta{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+}
+
+.print-table{
+width:100%;
+border-collapse:collapse;
+margin-bottom:20px;
+}
+
+.print-table th,
+.print-table td{
+border:1px solid #ddd;
+padding:8px;
+text-align:left;
+}
+
+.print-table th{
+background:#f3f4f6;
+}
+
+.invoice-total{
+text-align:right;
+font-size:18px;
+font-weight:bold;
+margin-top:20px;
+}
+
+.print-button{
+margin-top:20px;
+padding:10px 20px;
+background:#2563eb;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+@media print{
+.print-button{
+display:none;
+}
+}

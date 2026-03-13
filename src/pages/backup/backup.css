@@ -1,0 +1,24 @@
+.backup-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.backup-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.backup-card {
+  padding: 20px;
+  border-radius: 18px;
+}
+
+@media (max-width: 900px) {
+  .backup-header-actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

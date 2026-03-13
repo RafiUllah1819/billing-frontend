@@ -1,0 +1,83 @@
+.users-page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.users-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.users-card {
+  padding: 20px;
+  border-radius: 18px;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #eef2ff;
+  color: #4338ca;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.status-badge.active {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-badge.inactive {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.user-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal-subtext {
+  margin: 8px 0 0;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: end;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;
+  font-size: 14px;
+  color: #111827;
+}
+
+.small-modal {
+  max-width: 460px;
+}
+
+@media (max-width: 900px) {
+  .users-header-actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
