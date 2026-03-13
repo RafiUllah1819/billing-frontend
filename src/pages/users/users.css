@@ -81,3 +81,12 @@
     align-items: stretch;
   }
 }
+
+.custom-modal{
+  background: #fff;
+    border-radius: 20px;
+
+    padding: 22px;
+    overflow-y: auto;
+    box-shadow: 0 30px 60px #0f172a33;
+}
